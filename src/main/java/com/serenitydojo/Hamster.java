@@ -8,6 +8,10 @@ public class Hamster extends Pet {
         this.favoriteToy = favoriteToy;
     }
 
+    public String getFavoriteToy() {
+        return favoriteToy;
+    }
+
     @Override
     public String play() {
         return "runs in wheel";
